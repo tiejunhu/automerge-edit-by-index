@@ -4,6 +4,12 @@
 run by:
 
 ```
+bun install
 bun automerge-text.js
 node automerge-text.js
 ```
+
+Laptop is M1 Pro
+
+node v18.15.0 takes 56076ms
+bun 1.0.1 takes 154288ms, and it looks getting slower and slower at each print loop
